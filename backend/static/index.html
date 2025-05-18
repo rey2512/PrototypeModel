@@ -447,7 +447,7 @@
         // Remove this setTimeout in production
         setTimeout(async () => {
           try {
-            const response = await fetch("/detect", {
+            const response = await fetch("https://prototypemodel.onrender.com", {
               method: "POST",
               body: formData
             });
