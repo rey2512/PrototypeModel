@@ -16,7 +16,7 @@ logger = logging.getLogger("uvicorn.error")
 # Enable CORS for frontend running anywhere (adjust for production)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["prototype-model-ukhx-9xcvfikl5-prasenjeet-singhs-projects.vercel.app"],
+    allow_origins=["https://static-hgwp31ruf-prasenjeet-singhs-projects.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
